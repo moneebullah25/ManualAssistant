@@ -43,27 +43,20 @@ The question-answering chain is built using HuggingFacePipeline and PromptTempla
 
 Streamlit is integrated into the project, offering a user-friendly interface for document upload and seamless interaction with the question-answering capabilities.
 
-### Handling Deprecation Warnings
-
-Deprecation warnings related to LangChain are addressed by replacing the deprecated `__call__` function with `invoke` throughout the codebase.
-
 ## Getting Started
 
 To get started with the Manual Assistant, follow these steps:
 
 1. Clone the repository.
 2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the Streamlit app using `streamlit run app.py`.
+3. Run the main python file using `python manualassistant_tinyllama.py`
+4. Run the Streamlit app using `streamlit run app.py`.
 
 ## Usage
 
 1. Upload a PDF document using the provided interface.
 2. Ask your questions in the input field.
 3. Click "Get Answer" to receive accurate responses based on the uploaded document.
-
-## Contributing
-
-We welcome contributions from the community! If you encounter bugs, have feature requests, or want to contribute code, please follow the guidelines in our [Contributing](CONTRIBUTING.md) file.
 
 ## License
 
